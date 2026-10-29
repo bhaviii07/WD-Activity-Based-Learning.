@@ -261,30 +261,6 @@ footer {
 footer span {
     color: #79d8ff;
 }
-
-@media (max-width: 600px) {
-    header {
-        justify-content: center;
-        text-align: center;
-    }
-
-    nav a {
-        display: inline-block;
-        margin: 7px;
-    }
-
-    .hero {
-        height: 420px;
-    }
-
-    .hero h1 {
-        font-size: 37px;
-    }
-
-    section {
-        padding: 40px 5%;
-    }
-}
 </style>
 </head>
 
@@ -444,7 +420,7 @@ footer span {
             <p>Guided short trek</p>
             <p>Basic safety briefing</p>
             <p>Group activities</p>
-            <button class="btn" onclick="bookTrip('Starter Trek')">Choose Package</button>
+            <button>Choose Package</button>
         </div>
 
         <div class="panel price-card">
@@ -454,7 +430,7 @@ footer span {
             <p>Guided trekking</p>
             <p>Camping experience</p>
             <p>Meals as specified</p>
-            <button class="btn" onclick="bookTrip('Camping Escape')">Choose Package</button>
+            <button>Choose Package</button>
         </div>
 
         <div class="panel price-card">
@@ -464,7 +440,7 @@ footer span {
             <p>Multi-day itinerary</p>
             <p>Experienced guide</p>
             <p>Camping arrangements</p>
-            <button class="btn" onclick="bookTrip('Summit Adventure')">Choose Package</button>
+            <button>Choose Package</button>
         </div>
 
     </div>
@@ -489,14 +465,6 @@ footer span {
     <p>Adventure begins where the road ends.</p>
 </footer>
 
-<script>
-function bookTrip(packageName) {
-    alert("You selected the " + packageName +
-          " package! Contact the organizer to confirm your trip.");
-}
-</script>
 
 </body>
 </html>
-```
-
