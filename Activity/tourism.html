@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -295,41 +294,6 @@
             font-size: 13px;
             margin-top: 8px;
         }
-
-        @media (max-width: 750px) {
-            header {
-                flex-direction: column;
-            }
-
-            nav {
-                text-align: center;
-                line-height: 2.5;
-            }
-
-            .hero h2 {
-                font-size: 32px;
-            }
-
-            .destinations,
-            .festival-grid,
-            .food-grid,
-            .gallery {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .destinations,
-            .festival-grid,
-            .food-grid,
-            .gallery {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery img {
-                height: 220px;
-            }
-        }
     </style>
 </head>
 
@@ -357,7 +321,7 @@
             culture and beauty of every region.
         </p>
 
-        <button onclick="document.getElementById('destinations').scrollIntoView({behavior:'smooth'})">
+        <button>
             Explore Destinations
         </button>
     </div>
@@ -574,7 +538,7 @@
     <div class="contact">
         <h2>Start Your Next Adventure!</h2>
         <p>Explore new places, learn about history and create unforgettable memories.</p>
-        <button onclick="alert('Thank you for exploring Travel Tales!')">
+        <button Thank you for exploring Travel Tales!>
             Explore More
         </button>
     </div>
